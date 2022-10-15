@@ -29,9 +29,9 @@ void DrawBox(HDC hdc) {
 int RunCheats(HWND handler) {
 	
 	DWORD MommyID;
-	GetWindowThreadProcessId(handler, &MommyID);
+	GetWindowThreadProcessId(handler, &ID);
 
-	HANDLE Xhandler = OpenProcess(PROCESS_ALL_ACCESS, FALSE, MommyID);
+	HANDLE Xhandler = OpenProcess(PROCESS_ALL_ACCESS, FALSE, ID);
 
 	if (Xhandler == INVALID_HANDLE_VALUE) {
 		return 0;
