@@ -1,4 +1,4 @@
-# AlienRessurection
+# Alien Ressurection
 
 Simple Mod Menu For the ePSXe emulator for alien ressurection.
 
